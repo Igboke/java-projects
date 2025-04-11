@@ -74,7 +74,7 @@ public class Main {
     static double withdrawFunds(double balance){
         double funds = 0;
         try {
-            System.out.println("Enter amount to withdraw: ");
+            System.out.print("Enter amount to withdraw: ");
             funds = scanner.nextDouble();
         } catch (java.util.InputMismatchException e) {
             scanner.next();
