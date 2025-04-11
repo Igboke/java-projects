@@ -82,11 +82,11 @@ public class Main {
         }
         if (funds > balance) {
             System.out.println("Insufficient Balance");
-            return 0;
+            return balance;
         }
         else if (funds < 0){
             System.out.println("Amount to be withdrawn must be greater than 0");
-            return 0;
+            return balance;
         }
         else{
             balance -= funds;
